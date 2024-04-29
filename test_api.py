@@ -9,8 +9,7 @@ data = {
     "AveBedrms": 1.006,
     "Population": 322,
     "AveOccup": 2.555,
-    "Latitude": 37.54,
-    "Longitude": -122.29
+    "address":"1600 Amphitheatre Parkway, Mountain View, CA"
 }
 
 response = requests.post(url, json=data)
