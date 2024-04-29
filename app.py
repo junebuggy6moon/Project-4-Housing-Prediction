@@ -38,7 +38,6 @@ def login():
         return jsonify({'message': 'Login successful'}), 200
     return jsonify({'message': 'Invalid email or password'}), 401
 
-
 @app.route('/geocode', methods=['POST'])
 def geocode():
     try:
